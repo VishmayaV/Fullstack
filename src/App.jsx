@@ -15,6 +15,7 @@ import Blog from './pages/blog'
 import './App.css'
 import ShopContext from './components/shopcontext'
 import Details from './pages/details'
+import WalletPage from './pages/WalletPage';
 
 function ScrollToTop() {
   const { pathname } = useLocation();
@@ -47,6 +48,7 @@ function App() {
         <Route path='cart' element={<Cart />} />
         <Route path='checkout' element={<Checkout />} />
         <Route path='details' element={<Details />} />
+        <Route path="wallet" element={<WalletPage />} />
       </Route>
     </Routes>
     </BrowserRouter>

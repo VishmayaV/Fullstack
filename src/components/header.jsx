@@ -267,7 +267,7 @@ const Header = () => {
                   <div className="col-12 col-md-2 d-none d-md-flex d-lg-flex m-auto">
                     <div className={location.pathname === '/shop' ? 'active' : 'not-active'}>
                       <Link onClick={toggleMenu}
-                        to="/shop" // Navigate to /shop instead of /wallet
+                        to="wallet" // Navigate to /shop instead of /wallet
                         className="d-flex align-items-center color-nav me-3"
                       >
                         <FaWallet className='me-1 fs-2' /> {/* Wallet Icon */}
