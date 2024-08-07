@@ -80,7 +80,7 @@ const cart = (props) => {
               onClick={() => navigate("/checkout")}
               className="mt-5"
             >
-              {isMobile ? "Check Out" : "Proceed to Checkout"}
+              {isMobile ? "Check Out" : "Pay using wallet "}
             </button>
           </div>
         </div>
