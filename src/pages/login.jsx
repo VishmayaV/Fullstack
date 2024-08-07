@@ -246,6 +246,7 @@ const Login = () => {
       if (response.status === 200) {
         // Navigate to /home on successful login
         navigate('/');
+        console.log("Welcome to our platform");
       } else {
         setError('Login failed: Incorrect email or password');
       }
@@ -307,9 +308,11 @@ const Login = () => {
                       Sign up
                     </Link>
                   </div>
+                  <Link to="/">
                   <div className="d-grid gap-2">
                     <button type="submit">Login</button>
                   </div>
+                  </Link>
                 </form>
               </div>
             </div>
