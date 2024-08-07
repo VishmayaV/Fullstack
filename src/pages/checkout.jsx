@@ -29,7 +29,7 @@ const checkout = () => {
               <button className="btn col-12 btn-light btn-block text-start collapsed p-3 rounded-0 border-bottom-custom" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                 <div className="d-flex align-items-center justify-content-between">
                   <div className='col-6'>
-                    <span>Paypal</span>
+                    <span>Pay using wallet</span>
                   </div>
                   <div className='col-6'>
                     <img src={pay} alt="" className='img-fluid' />
@@ -39,7 +39,8 @@ const checkout = () => {
             </div>
             <div id="collapseTwo" className="collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
               <div className="card-body">
-                <input type="text" className="form-control" placeholder="Paypal email" required/>
+                <input type="text" className="form-control" placeholder=" email" required/>
+                <input type="text" className="form-control" placeholder=" password" required/>
               </div>
             </div>
           </div>

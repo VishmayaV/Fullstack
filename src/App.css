@@ -1221,3 +1221,73 @@ padding: 24px 1rem !important;
 
 
 
+
+/* Custom styles for the select dropdown */
+.filter-section .form-select {
+  appearance: none; /* Remove default styles */
+  background: linear-gradient(135deg, lightorange,#90e0bb ); /* Gradient background */
+  border: 1px solid #90e0bb;; /* Light border color */
+  border-radius: .375rem; /* Rounded corners */
+  padding: .5rem 1.5rem .5rem .80rem; /* Padding for better spacing */
+  font-size: 1rem; /* Font size */
+  color:orange; /* Text color */
+  cursor: pointer; /* Pointer cursor for the dropdown */
+  transition: border-color 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease; /* Smooth transition effects */
+  position: relative; /* For positioning the custom arrow */
+  box-shadow: 0 4px 6px #90e0bb; /* Subtle shadow */
+}
+
+.filter-section .form-select:focus {
+  border-color: #90e0bb;; /* Darker border color on focus */
+  background-color: #ffffff; /* Change background on focus */
+  box-shadow: 0 4px 8px#90e0bb;; /* Darker shadow on focus */
+  outline: none; /* Remove default outline */
+}
+
+.filter-section .form-select option {
+  padding: .75rem 1rem; /* Padding inside options */
+  background-color: #ffffff; /* White background for options */
+  border-bottom: 1px solid #e0e0e0; /* Bottom border for spacing */
+  transition: background-color 0.3s ease; /* Smooth background color transition */
+}
+
+.filter-section .form-select option:nth-child(even) {
+  background-color: #f9f9f9; /* Alternating background color */
+}
+
+.filter-section .form-select option:hover {
+  background-color: #e0e0e0; /* Light grey background on hover */
+}
+
+.filter-section .form-select option:focus {
+  background-color: #e0e0e0; /* Light grey background on focus */
+}
+
+.filter-section .form-select-wrapper {
+  position: relative; /* For positioning the dropdown arrow */
+}
+
+.filter-section .form-select-wrapper::after {
+  content: "\f078"; /* Font Awesome down arrow icon */
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  color: #90e0bb;; /* Color of the arrow */
+  position: absolute;
+  right: 1rem;
+  top: 50%;
+  transform: translateY(-50%);
+  pointer-events: none; /* Disable pointer events on the arrow */
+  transition: color 0.3s ease; /* Smooth transition for arrow color */
+}
+
+.filter-section .form-select:hover::after {
+  color: #90e0bb;; /* Darker arrow color on hover */
+}
+
+
+
+
+
+
+
+

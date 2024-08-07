@@ -60,7 +60,7 @@ export const PRODUCTS = [
         id: 4,
         image: pr5,
         name: "Men's Tech 2.0 Short Sleeve T-Shirt",
-        price: 500,
+        price: 700,
         status:'in stock',
         rate: '50% Off'
         },
@@ -76,7 +76,7 @@ export const PRODUCTS = [
         id: 6,
         image: pr7,
         name: "Men's Cotton Classic Short Sleeve Pant",
-        price: 200,
+        price: 2000,
         status:'in stock',
         rate: '50% Off'
         },
@@ -84,7 +84,7 @@ export const PRODUCTS = [
         id: 7,
         image: pr8,
         name: "Women's Classic Fit Crewneck T-Shirt",
-        price: 800,
+        price: 850,
         },
         {
         id: 8,
@@ -102,7 +102,7 @@ export const PRODUCTS = [
         id: 10,
         image: pro3,
         name: "Women's Badge of Sport Tee",
-        price: 300,
+        price: 400,
         },
         {
         id: 11,
@@ -150,7 +150,7 @@ export const  PRODUCTS1 = [
         id: 17,
         image: img2,
         name: "Men's Dri-FIT T-Shirt",
-        price: 500,
+        price: 700,
         status: 'in stock',
         rate: '60% off'
         },
@@ -166,7 +166,7 @@ export const  PRODUCTS1 = [
         id: 19,
         image: img4,
         name: "Sportswear Pant",
-        price: 400,
+        price: 1000,
         status: 'out of stock',
         rate: 'normal rates'
         },

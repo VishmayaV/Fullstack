@@ -26,16 +26,7 @@ const ProductDetails = () => {
     setIsModalOpen(false);
   };
 
-  // Dummy data for available stores
-  const availableStores = [
-    { name: "Trends", address: "Coimbatore, TamilNadu" },
-    { name: "Supers", address: "Coimbatore, TamilNadu" },
-    { name: "Lotz", address: "Coimbatore, TamilNadu" }
-  ];
-
-  const handleStoreClick = () => {
-    navigate('/checkout');
-  };
+  
 
   return (
     <div className="container p-5">
@@ -100,7 +91,7 @@ const ProductDetails = () => {
                     transition: '0.5s ease'
                   }}
                 >
-                  Buy Now
+          =
                 </button> */}
               </div>
             </div>
