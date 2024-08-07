@@ -250,7 +250,12 @@ const Header = () => {
               <div className="col-md-3 m-auto">
                 <div className="input-group d-none d-md-flex">
                   <input type="text" className="form-control" placeholder="Find products ..." aria-label="Find products ..." aria-describedby="basic-addon2" />
-                  <button className="input-group-text" id="basic-addon2">search</button>
+                  <button className="input-group-text" id="basic-addon2">search
+                    </button>
+
+
+
+                  
                 </div>
               </div>
               <div className="col-md-6 m-auto">
