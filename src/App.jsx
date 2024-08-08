@@ -17,6 +17,13 @@ import ShopContext from './components/shopcontext'
 import Details from './pages/details'
 import WalletPage from './pages/WalletPage';
 
+// import AdminDashboard from './pages/AdminDashboard';
+// import ProductList from './components/ProductList';
+// import OrderList from './components/OrderList';
+// import UserList from './components/UserList';
+
+
+
 function ScrollToTop() {
   const { pathname } = useLocation();
 
@@ -49,6 +56,20 @@ function App() {
         <Route path='checkout' element={<Checkout />} />
         <Route path='details' element={<Details />} />
         <Route path="wallet" element={<WalletPage />} />
+
+
+
+{/* {
+        // <Route path="/admin/dashboard" element={<AdminDashboard />} />
+        // <Route path="/admin/products" element={<ProductList />} />
+        // <Route path="/admin/orders" element={<OrderList />} />
+        // <Route path="/admin/users" element={<UserList />} /> 
+        } */}
+
+
+
+
+
       </Route>
     </Routes>
     </BrowserRouter>

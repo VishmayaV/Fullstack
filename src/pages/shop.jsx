@@ -91,27 +91,15 @@ const shop = () => {
         </div>
       </section>
 
-      {/* <section className="filter-section p-3 text-end">
-        <div className="container-xxl">
-          <div className="row justify-content-end">
-            <div className="col-md-3">
-              <select className="form-select" value={filter} onChange={handleFilterChange}>
-                <option value="lowToHigh"> Low to High</option>
-                <option value="highToLow">High to Low</option>
-              </select>
-            </div>
-          </div>
-        </div>
-      </section> */}
 
-
-<section className="filter-section p-3 text-end">
+      <section className="filter-section p-3 text-end">
   <div className="container-xxl">
     <div className="row justify-content-end">
       <div className="col-md-3">
         <div className="form-select-wrapper">
           <select className="form-select" value={filter} onChange={handleFilterChange}>
-            <option value="lowToHigh">Low to High</option>
+            <option value="none">None</option><br></br>
+            <option value="lowToHigh">Low to High</option><br></br>
             <option value="highToLow">High to Low</option>
           </select>
         </div>
@@ -119,6 +107,7 @@ const shop = () => {
     </div>
   </div>
 </section>
+
 
 
 
