@@ -202,6 +202,7 @@ import { CgShoppingCart, CgProductHunt } from 'react-icons/cg';
 import { AiOutlineMenu, AiOutlineClose } from 'react-icons/ai';
 import { Link, NavLink, useLocation } from 'react-router-dom';
 import { FaWallet } from 'react-icons/fa'; // Import the wallet icon
+import logo from '../assets/images/Quickboxlogo.png';
 import compare from "../assets/images/compare.svg";
 import wishlist from "../assets/images/wishlist.svg";
 import user from "../assets/images/user.svg";
@@ -224,7 +225,8 @@ const Header = () => {
           <div className="row align-items-center m-0">
             <div className="col-md-2 d-flex justify-content-center">
               <Link to='/'>
-                <span className="quickbox-logo">QuickBox.</span>
+              <img src={logo} alt='logo' style={{width: 45, height: 45}} />
+                <span className="quickbox-logo">  QuickBox.</span>
               </Link>
               <button className="navbar-toggler d-md-none" type="button" onClick={toggleMenu}>
                 <span className="navbar-toggler-icon">
